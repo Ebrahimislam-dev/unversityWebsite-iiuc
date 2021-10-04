@@ -1,0 +1,11 @@
+.hero-card:hover{
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+   
+}
+ .hero-details{
+    margin-left: 15px;
+} 
+
+.herocard-img{
+    height: 250px;   
+}

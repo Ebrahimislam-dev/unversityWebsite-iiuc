@@ -8,10 +8,11 @@ import {
 import Header from './components/header/Header';
 import Notfound from './components/notfound/Notfound';
 import Home from './components/home/Home';
-import Services from './components/services/Services'
+
 import About from './components/about/About'
 import Contactus from './components/contact/Contactus';
 import Footer from './components/footer/Footer';
+import Servicesall from './components/servicesall/Servicesall';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
             <Home></Home>
           </Route>
           <Route exact path='/services'>
-            <Services></Services>
+            <Servicesall></Servicesall>
           </Route>
           <Route exact path='/about'>
             <About></About>
