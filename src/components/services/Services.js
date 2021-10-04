@@ -6,10 +6,10 @@ const Services = (props) => {
 
     return (
         <div>
-            <div className="text-start">
+            <div className="text-start ">
                 <Col>
                     <Card>
-                        <Card.Img variant="top height" src={img} />
+                        <Card.Img variant="top card-img" src={img} />
                         <Card.Body>
                             <Card.Title>{deptname}</Card.Title>
                             <Card.Text>
@@ -18,8 +18,10 @@ const Services = (props) => {
                                 </h5>
                                 <h5>Time to Complete: <small className="fs-6">{durability} </small> </h5>
                                 <h5>Total cost: <small className="fs-6">{cost} </small> </h5>
+                                <button className="btn btn-outline-dark px-5">Know More About this Department</button>
                             </Card.Text>
                         </Card.Body>
+
 
                     </Card>
                 </Col>

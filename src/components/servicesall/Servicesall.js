@@ -6,8 +6,8 @@ import Services from '../services/Services';
 const Servicesall = () => {
     const [services] = useServicehook(false);
     return (
-        <div className="bg-black mb-3">
-            <div className="bg-dark">
+        <div>
+            <div className="bg-dark mb-2">
                 <h1 className="text-white mb-5 mt-2">
                     Our Services
                 </h1>

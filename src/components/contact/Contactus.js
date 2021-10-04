@@ -61,10 +61,10 @@ const Contactus = () => {
 
                 </div>
             </div>
-            <div>
 
-                <div className="bg-dark p-5 rounded">
-                    <h3 className="text-center m-3">Sign Up for newsletter</h3>
+            <div>
+                <div className="bg-dark text-white p-5 mb-1 rounded">
+                    <h3 className="text-center m-3">Conatct Us Via Mail</h3>
                     <form>
                         <div className="row mb-3">
                             <label
@@ -78,7 +78,7 @@ const Contactus = () => {
                                     type="name"
                                     className="form-control form-control-sm "
                                     id="inputName"
-                                    placeholder="enter your name"
+                                    placeholder="Enter your name"
                                 />
                             </div>
                         </div>
@@ -94,11 +94,31 @@ const Contactus = () => {
                                     type="email"
                                     className="form-control form-control-sm "
                                     id="colFormLabelSm"
-                                    placeholder="enter your email"
+                                    placeholder="Enter your email"
                                 />
                             </div>
                         </div>
+                        <div className="row mb-3">
+                            <label
+                                htmlFor="colFormLabelSm"
+                                className="col-sm-2 col-form-label col-form-label-sm"
+                            >
+                                Description
+                            </label>
+                            <div className="col-sm-10">
+                                {/* <input
+                                    type="Text"
+                                    className="form-control form-control-sm "
+                                    id="colFormLabelSm"
+                                    placeholder="Describe Your Query in Some Words"
+                                /> */}
+                                <textarea rows="5" cols="138" name="comment" form="usrform">
+                                Describe Your Query in Some Words.....</textarea>
+                            </div>
+                        </div>
+
                     </form>
+                    <button className="btn btn-danger px-5 py-2">Submit</button>
                 </div>
             </div>
         </div>

@@ -46,8 +46,8 @@ const Home = () => {
       </div>
 
 
-      <div className="bg-dark">
-        <h1 className="text-white mb-5 mt-2">
+      <div className="bg-dark mb-2">
+        <h1 className="text-white mb-5 mt-1">
           Our Services
         </h1>
         <Row xs={1} md={2} className="g-4 bg-dark">

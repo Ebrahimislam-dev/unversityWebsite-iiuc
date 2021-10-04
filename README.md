@@ -9,7 +9,7 @@ Basically In this project, you can know about  our university. in this website y
 
 
 ### Project Features
-1. You can see our services.
+1.  You can see our services.
 
 2. You can know about us.
 
@@ -21,8 +21,9 @@ Basically In this project, you can know about  our university. in this website y
 
 
 ### Project Functionalities
-1. In this project we use react routers for routing one path to another path
+*  In this project we use react routers for routing one path to another path
 
-2. There are also a 404 not found page show whenever someone try to go different pages 
-n
+*  There are also a 404 not found page show whenever someone try to go different pages.
+
+* Here we use also custom hooks for data load.
 
