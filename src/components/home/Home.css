@@ -1,0 +1,11 @@
+.home-section{
+background-image:
+linear-gradient(to bottom, #232526dc, #414345de),
+url('../../images/coverpage.jpeg');
+width: 100%;
+background-size: cover;
+}
+.cardDetails{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
