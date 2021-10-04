@@ -18,9 +18,12 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div>
+
             <div className="container-fluid bg-dark text-white-50">
+
                 <div className="container">
                     <div className=" row">
+                        {/* About colum */}
                         <div className="col-md-5">
                             <div className="mt-5 text-start">
                                 <h1>International Islamic University Chittagong</h1>
@@ -71,6 +74,7 @@ const Footer = () => {
                                 </p>
                             </div>
                         </div>
+                        {/* Router/Nav column */}
                         <div className="col-md-2 mt-5">
                             <div className="footer-menu-container">
                                 <ul>
@@ -99,6 +103,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
+                        {/* Contact column */}
                         <div className="col-md-5">
                             <div className="mt-5">
                                 <h3>Mail us for know more about us</h3>

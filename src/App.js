@@ -17,10 +17,12 @@ import Servicesall from './components/servicesall/Servicesall';
 function App() {
   return (
     <div className="App">
+      {/* Using Router */}
       <Router>
+        {/* intializing header */}
         <Header></Header>
         <Switch>
-
+          {/* navbars routes */}
           <Route exact path='/'>
             <Home></Home>
           </Route>
@@ -36,10 +38,12 @@ function App() {
           <Route exact path='/contact'>
             <Contactus></Contactus>
           </Route>
+          {/* not found page route */}
           <Route path="*">
             <Notfound></Notfound>
           </Route>
         </Switch>
+        {/* intializing footer */}
         <Footer></Footer>
       </Router>
     </div>

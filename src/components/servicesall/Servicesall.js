@@ -4,6 +4,7 @@ import useServicehook from '../../hook/useServicehook';
 import Services from '../services/Services';
 
 const Servicesall = () => {
+    // using custom hooks conditionally
     const [services] = useServicehook(false);
     return (
         <div>

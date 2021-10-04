@@ -4,6 +4,7 @@ import "./Header.css"
 
 
 const Header = () => {
+    // active style for navbar
     const active = {
         fontWeight: "bold",
         color: "red",
@@ -12,6 +13,7 @@ const Header = () => {
     };
     return (
         <div className='header-navbar bg-dark'>
+            {/* navItems */}
             <div className='container mx-auto text-center text-white flex justify-center'>
                 <NavLink to='/home' activeStyle={active} className='nav-item text-white text-decoration-none'>
                     Home

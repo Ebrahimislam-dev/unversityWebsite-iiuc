@@ -2,10 +2,12 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import './Services.css'
 const Services = (props) => {
+    // destructuring
     const { deptname, aboutdept, durability, img, cost } = props.service;
 
     return (
         <div>
+            {/* Services card dynamically */}
             <div className="text-start ">
                 <Col>
                     <Card>
@@ -21,13 +23,9 @@ const Services = (props) => {
                                 <button className="btn btn-outline-dark px-5">Know More About this Department</button>
                             </Card.Text>
                         </Card.Body>
-
-
                     </Card>
                 </Col>
-
             </div>
-
         </div>
     );
 };

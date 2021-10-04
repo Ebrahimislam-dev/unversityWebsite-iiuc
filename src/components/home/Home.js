@@ -5,10 +5,12 @@ import Services from '../services/Services';
 
 import "./Home.css"
 const Home = () => {
+  // using custom hooks conditionally
   const [services] = useServicehook(true);
-  // console.log(services);
+
   return (
     <div>
+      {/* Home section */}
       <div className="container-fluid p-0 m-0 home-section">
         <h1 className=" text-white fw-bold">
           Welcome To  International Islamic University Chittagong
@@ -45,30 +47,21 @@ const Home = () => {
         </div>
       </div>
 
-
+      {/* Services section */}
       <div className="bg-dark mb-2">
         <h1 className="text-white mb-5 mt-1">
           Our Services
         </h1>
         <Row xs={1} md={2} className="g-4 bg-dark">
-
           {
-
             services.map(service => <Services
               key={service.key}
               service={service}
             >
             </Services>)
           }
-
         </Row>
-
-
-
       </div>
-
-
-
     </div>
 
   );

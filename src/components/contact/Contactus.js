@@ -2,11 +2,9 @@ import React from 'react';
 
 const Contactus = () => {
     return (
-
         <div>
-
+            {/* Contact use 1st Section */}
             <div>
-
                 <div className="row">
                     <h1>
                         CONTACT US
@@ -61,7 +59,7 @@ const Contactus = () => {
 
                 </div>
             </div>
-
+{/* Contactus 2nd section */}
             <div>
                 <div className="bg-dark text-white p-5 mb-1 rounded">
                     <h3 className="text-center m-3">Conatct Us Via Mail</h3>
@@ -106,14 +104,8 @@ const Contactus = () => {
                                 Description
                             </label>
                             <div className="col-sm-10">
-                                {/* <input
-                                    type="Text"
-                                    className="form-control form-control-sm "
-                                    id="colFormLabelSm"
-                                    placeholder="Describe Your Query in Some Words"
-                                /> */}
                                 <textarea rows="5" cols="138" name="comment" form="usrform">
-                                Describe Your Query in Some Words.....</textarea>
+                                    Describe Your Query in Some Words.....</textarea>
                             </div>
                         </div>
 
