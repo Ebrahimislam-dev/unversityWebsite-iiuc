@@ -12,7 +12,7 @@ const Header = () => {
         borderBlockEnd: "2px solid #ff0000"
     };
     return (
-        <div className='header-navbar bg-dark'>
+        <div className=' header-navbar bg-dark'>
             {/* navItems */}
             <div className='container mx-auto text-center text-white flex justify-center'>
                <NavLink to='/home' activeStyle={active} className='nav-item text-white text-decoration-none'>

@@ -6,7 +6,7 @@ const Services = (props) => {
     const { deptname, aboutdept, durability, img, cost } = props.service;
 
     return (
-        <div>
+        <div className="container-fluid">
             {/* Services card dynamically */}
             <div className="text-start container " >
                 <Col>
