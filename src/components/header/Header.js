@@ -15,7 +15,7 @@ const Header = () => {
         <div className='header-navbar bg-dark'>
             {/* navItems */}
             <div className='container mx-auto text-center text-white flex justify-center'>
-                <NavLink to='/home' activeStyle={active} className='nav-item text-white text-decoration-none'>
+               <NavLink to='/home' activeStyle={active} className='nav-item text-white text-decoration-none'>
                     Home
                 </NavLink>
                 <NavLink to='/services' activeStyle={active} className='nav-item text-white text-decoration-none'>
@@ -27,7 +27,7 @@ const Header = () => {
                 <NavLink to='/contact' activeStyle={active} className='nav-item text-white text-decoration-none'>
                     Contact-Us
                 </NavLink>
-                
+
             </div>
         </div>
     );

@@ -8,9 +8,9 @@ const Servicesall = () => {
     const [services] = useServicehook(false);
     return (
         <div>
-            <div className="bg-dark mb-2">
+            <div className="bg-dark mb-1">
                 <h1 className="text-white mb-5 mt-2">
-                    Our Services
+                    <span className="text-danger">OUR</span> SERVICES
                 </h1>
                 <Row xs={1} md={2} className="g-5 bg-dark">
                     {
